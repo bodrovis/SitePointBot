@@ -1,0 +1,70 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.7)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    http_router (0.11.1)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    i18n (0.6.11)
+    ice_nine (0.11.0)
+    ipaddress (0.8.0)
+    json (1.8.1)
+    lita (4.0.2)
+      bundler (>= 1.3)
+      faraday (>= 0.8.7)
+      http_router (>= 0.11.1)
+      i18n (>= 0.6.9)
+      ice_nine (>= 0.11.0)
+      multi_json (>= 1.7.7)
+      puma (>= 2.7.1)
+      rack (>= 1.5.2)
+      rb-readline (>= 0.5.1)
+      redis-namespace (>= 1.3.0)
+      thor (>= 0.18.1)
+    lita-google-images (2.0.0)
+      lita (>= 4.0)
+    lita-hipchat (2.0.1)
+      lita (>= 4.0)
+      xmpp4r (>= 0.5.6)
+    lita-logger (1.0.1)
+      lita (>= 3.3)
+    lita-whois (0.1.0)
+      ipaddress
+      lita (>= 3.0)
+      whois
+    minitest (5.4.3)
+    multi_json (1.10.1)
+    multipart-post (2.0.0)
+    puma (2.9.2)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rb-readline (0.5.1)
+    redis (3.1.0)
+    redis-namespace (1.5.1)
+      redis (~> 3.0, >= 3.0.4)
+    thor (0.19.1)
+    thread_safe (0.3.4)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    url_mount (0.2.1)
+      rack
+    whois (3.5.6)
+      activesupport (>= 3)
+    xmpp4r (0.5.6)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  lita
+  lita-google-images
+  lita-hipchat
+  lita-logger
+  lita-whois
